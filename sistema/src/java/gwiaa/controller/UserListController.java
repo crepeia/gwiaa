@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.controller;
+package gwiaa.controller;
 
 import java.io.Serializable;
 import java.sql.SQLException;
@@ -20,8 +20,8 @@ import javax.faces.model.SelectItem;
 import javax.naming.NamingException;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import wati.model.User;
-import wati.persistence.GenericDAO;
+import gwiaa.model.User;
+import gwiaa.persistence.GenericDAO;
 
 /**
  *

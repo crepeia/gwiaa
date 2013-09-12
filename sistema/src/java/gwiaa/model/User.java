@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.model;
+package gwiaa.model;
 
 import java.util.Date;
 import javax.persistence.Column;

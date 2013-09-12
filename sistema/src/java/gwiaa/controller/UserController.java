@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.controller;
+package gwiaa.controller;
 
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
@@ -21,8 +21,8 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.faces.event.ActionEvent;
-import wati.model.User;
-import wati.utility.Encrypter;
+import gwiaa.model.User;
+import gwiaa.utility.Encrypter;
 
 /**
  *

@@ -13,7 +13,7 @@
 			<supported-locale>pt</supported-locale>
 		</locale-config>
 		<message-bundle>
-			<base-name>wati.utility.messages</base-name>
+			<base-name>gwiaa.utility.messages</base-name>
 		</message-bundle>
 	</application>
 	

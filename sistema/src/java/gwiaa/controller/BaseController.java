@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.controller;
+package gwiaa.controller;
 
-import wati.persistence.GenericDAO;
+import gwiaa.persistence.GenericDAO;
 import java.io.Serializable;
 import java.util.Locale;
 import java.util.Map;

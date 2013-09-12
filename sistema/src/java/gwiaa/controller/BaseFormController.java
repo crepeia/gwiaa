@@ -2,10 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.controller;
+package gwiaa.controller;
 
-//import wati.model.User;
-import wati.utility.Encrypter;
+import gwiaa.utility.Encrypter;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.sql.SQLException;

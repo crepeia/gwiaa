@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.utility;
+package gwiaa.utility;
 
 import java.util.Properties;
 import javax.mail.Authenticator;
@@ -34,6 +34,7 @@ public class EMailSSL {
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.port", "465");
         
+        //TODO -- o e-mail ainda eh o mesmo do projeto wati -- modificar
         this.authenticator = new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
                 return new PasswordAuthentication("watiufjf", "wati1235");

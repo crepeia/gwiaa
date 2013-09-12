@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.persistence;
+package gwiaa.persistence;
 
 import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.SessionFactory;

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.controller;
+package gwiaa.controller;
 
 import java.io.Serializable;
 import java.util.logging.Level;
@@ -12,8 +12,8 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
-import wati.model.User;
-import wati.utility.EMailSSL;
+import gwiaa.model.User;
+import gwiaa.utility.EMailSSL;
 
 /**
  *
@@ -37,7 +37,7 @@ public class ContatoController implements Serializable {
 
     public void sendEmail() {
 
-        eMailSSL.send(this.email, "hedersb@gmail.com", "Contato -- Wati", message);
+        eMailSSL.send(this.email, "hedersb@gmail.com", "Contato -- Gwiaa", message);
         String message = "Mensagem enviada com sucesso.";
         FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, message, null));
         Logger.getLogger(BaseFormController.class.getName()).log(Level.INFO, message);

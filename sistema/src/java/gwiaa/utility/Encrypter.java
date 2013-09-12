@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package wati.utility;
+package gwiaa.utility;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;

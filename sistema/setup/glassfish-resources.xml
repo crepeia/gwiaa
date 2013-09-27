@@ -6,7 +6,7 @@
         <property name="portNumber" value="3306"/>
         <property name="databaseName" value="gwiaa"/>
         <property name="User" value="gwiaa"/>
-        <property name="Password" value="gwiaa45679"/>
+        <property name="Password" value="gwiaa1235"/>
         <property name="URL" value="jdbc:mysql://localhost:3306/gwiaa?zeroDateTimeBehavior=convertToNull"/>
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
     </jdbc-connection-pool>

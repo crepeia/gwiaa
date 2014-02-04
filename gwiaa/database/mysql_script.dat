@@ -1,0 +1,6 @@
+#-- acessar como como root
+#-- mysql --user=root -p
+
+create user gwiaa@localhost identified by "gwiaa2345";
+create database gwiaa;
+grant all privileges on gwiaa.* to gwiaa@localhost;
